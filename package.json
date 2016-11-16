@@ -1,0 +1,16 @@
+{
+  "name": "image-compare",
+  "version": "1.0.0",
+  "description": "Tool to compare images taken of michigan.gov",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yungek@michigan.gov",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "image-diff": "^1.6.3",
+    "q": "^1.4.1"
+  }
+}

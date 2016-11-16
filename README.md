@@ -1,10 +1,17 @@
 # migov-capture-test
 
-Install Packages
-brew install imagemagick
-npm install capture -g
-npm install
+#### Install Dependencies
+```sh
+$ brew install imagemagick
+$ npm install capture -g
+$ npm install
+```
 
-Update Urls in the urls.json file
+#### Configure Urls
+Urls that you want to compare are found in the urls.json file.  Update it accordingly base on expected tests.
 
-run ./diff.sh
+
+#### Run
+```sh
+$ ./diff.sh
+```
